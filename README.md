@@ -6,6 +6,11 @@ The JsonDB CLI is a simple command line application that allows users to create,
 ```bash
 git clone https://github.com/akash-kumar-saw/JsonDB-CLI
 ```
+- Install the required dependencies:
+```bash
+cd JsonDB-CLI
+go mod download
+```
 - Run the following command to build the application:
 ```bash
 go build .
